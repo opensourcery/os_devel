@@ -144,14 +144,14 @@
 
 <div id="tables">
   <h2>Tables</h2>
-  <table>
+  <table class="footable table toggle-arrow">
     <caption>Table title goes here</caption>
     <thead>
       <tr>
-        <th>Mauris</th>
-        <th>Tempor</th>
-        <th>Praesent lacus nulla</th>
-        <th>Quis</th>
+        <th data-toggle="true">Mauris</th>
+        <th data-hide="phone">Tempor</th>
+        <th data-hide="phone">Praesent lacus nulla</th>
+        <th data-hide="phone,tablet">Quis</th>
       </tr>
     </thead>
     <tbody>
